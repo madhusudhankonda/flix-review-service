@@ -13,4 +13,10 @@ public class MovieReviewController {
     public String getReviews(String movieTitle){
         return "Bad Movie";
     }
+
+    @GetMapping("/review")
+    public String getReview(String movieTitle){
+        return "Movie Review 1";
+    }
+
 }
